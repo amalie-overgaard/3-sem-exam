@@ -1,0 +1,65 @@
+/* Laptop CSS */
+
+  body {
+    background-color: #FFFFFF;
+    }
+	
+	@media (min-width:668px){
+	 
+	 .mobile {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #95989A; 
+    }
+	    
+	}
+	
+	@media (max-width:668px){
+	
+	.desktop{
+	    display:none;
+	}
+    }
+
+	.desktop {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 100px;
+		background: #FFF;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		vertical-align: middle;
+	}
+	
+	.desktop img {
+		max-height: 100px;
+	}
+	
+	.menu {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
+	
+	.menu a {
+		padding: 0 1em;
+		text-decoration: none;
+		color: #95989A;
+	}
+	
+	.menu a:hover {
+		color: #5E6061 !important;
+	}
+	
+	
+	.container {
+		margin-top: 60px;
+	}
+		
